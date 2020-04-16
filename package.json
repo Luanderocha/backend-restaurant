@@ -1,0 +1,17 @@
+{
+  "name": "restaurante-backend",
+  "version": "1.0.0",
+  "description": "API criada para realizar um crud de produtos de um restaurante",
+  "main": "src/servidor.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Luanderson Silva",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
