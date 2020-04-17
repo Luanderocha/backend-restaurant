@@ -20,12 +20,8 @@ git clone https://github.com/Luanderocha/backend-restaurant.git
 Entre na pasta do projeto e execute os seguintes comandos:
 ```
 npm install
-ou
-yarn add global
 
 npm start
-ou
-yarn start
 ```
 ### Executar projeto FrontEnd
 link do diretório:<br/>
