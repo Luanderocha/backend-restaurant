@@ -8,8 +8,10 @@ execute o comando abaixo no seu terminal de comando.
 ```
 node -v
 ```
-caso não possua o node instalado vocẽ pode baixar so site oficial.<br/>
-https://nodejs.org/en/download/
+
+caso não exiba a versão do node você pode baixar so site oficial.<br/>
+https://nodejs.org/en/download/ <br/>
+
 ### Agora é necessário clonar o repositório
 ```
 git clone
