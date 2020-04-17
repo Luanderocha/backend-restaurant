@@ -23,6 +23,9 @@ npm install
 
 npm start
 ```
+Servidor iniciado na porta 3001
+http://localhost:3000
+
 ### Executar projeto FrontEnd
 link do diretório:<br/>
 https://github.com/Luanderocha/frontend-restaurante
