@@ -1,27 +1,28 @@
 # backend-restaurant
 Backend para API restaurante
 
-# Book Store
 
-## Project setup
+## Pré requisitos para executar do projeto na sua máquina
+Primeiro verifique se você possui o node.js na sua máquina.<br/>
+execute o comando abaixo no seu terminal de comando.
 ```
-yarn install
+node -v
+```
+caso não possua o node instalado vocẽ pode baixar so site oficial.<br/>
+https://nodejs.org/en/download/
+### Agora é necessário clonar o repositório
+```
+git clone
+```
+### Execução do projeto
+Entre na pasta do projeto e execute os seguintes comandos:
+```
+npm install
+ou
+yarn add global
+
+npm start
+ou
+yarn start
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
