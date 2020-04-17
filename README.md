@@ -2,7 +2,7 @@
 Backend para API restaurante
 
 
-## Pré requisitos para executar do projeto na sua máquina
+## Pré requisitos para executar o projeto
 Primeiro verifique se você possui o node.js na sua máquina.<br/>
 execute o comando abaixo no seu terminal de comando.
 ```
