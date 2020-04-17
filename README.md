@@ -9,7 +9,7 @@ execute o comando abaixo no seu terminal de comando.
 node -v
 ```
 
-caso não exiba a versão do node você pode baixar so site oficial.<br/>
+caso não exiba a versão do node você pode baixar no site oficial.<br/>
 https://nodejs.org/en/download/ <br/>
 
 ### Agora é necessário clonar o repositório
