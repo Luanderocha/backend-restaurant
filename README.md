@@ -14,7 +14,7 @@ https://nodejs.org/en/download/ <br/>
 
 ### Agora é necessário clonar o repositório
 ```
-git clone
+git clone https://github.com/Luanderocha/backend-restaurant.git
 ```
 ### Execução do projeto
 Entre na pasta do projeto e execute os seguintes comandos:
