@@ -2,8 +2,12 @@ const bd = require('./bdMock')
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
+const cors = require('cors');
 
 app.use(bodyParser.urlencoded({extended:true}));
+app.use(express.json());
+app.use(cors());
+
 
 app.get('/produtos', (req, res) => {
     res.send(bd.getProdutos());
@@ -15,10 +19,11 @@ app.get('/produtos/:id', (req,res)=>{
 })
 
 app.post('/produtos/novo', (req, res)=>{
+    console.log(req.body);
     const produto = bd.salvarProdutos({
         nome:req.body.nome,
         preco:req.body.preco,
-        img:req.body.img
+        foto:req.body.foto
     });
     res.send(produto);
 })
@@ -29,10 +34,11 @@ app.delete('/produtos/:id' , (req,res) => {
 });
 
 app.put('/produtos/editar/:id' , (req,res) =>{
+    console.log(req.body);
     const produto = {
         nome:req.body.nome,
         preco:req.body.preco,
-        img:req.body.img
+        foto:req.body.foto
     };
     const produtoAtualizado = bd.editarProduto(req.params.id , produto);
     res.send(`O produto ${produtoAtualizado.nome} foi atualizado com sucesso`);
