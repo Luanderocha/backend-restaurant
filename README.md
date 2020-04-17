@@ -27,4 +27,7 @@ npm start
 ou
 yarn start
 ```
+### Executar projeto FrontEnd
+link do diretório:<br/>
+https://github.com/Luanderocha/frontend-restaurante
 
